@@ -1,0 +1,52 @@
+
+@font-face {
+    font-family: 'Alcubierre';
+    src: url('Alcubierre.otf') ; 
+}
+
+*{
+    font-family: 'Alcubierre';
+}
+
+body{
+    background-image: url('photo-1612306299440-15460d4009e4.avif');
+    background-size: cover;
+}
+
+.table--section{
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+    padding: 5%;
+}
+
+table {
+    background-color: whitesmoke;
+    margin: 25px 0;
+    font-size: 1.4em;
+    min-width: 600px;
+    width: 70%;
+}
+
+th {
+
+}  
+
+caption{
+    padding: 3%;
+    font-size: 1.9em;
+}
+
+table, th, td {
+    border: 1px solid rgb(17, 17, 17);
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+.top th{
+    background-color: black;
+    color:white;
+    border-color: white;
+    font-weight: bold;
+    text-align: left;
+}
